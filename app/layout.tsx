@@ -12,7 +12,7 @@ const fontSans = FontSans({
 });
 export const metadata: Metadata = {
   title: "kaksha.ai",
-  description: "The startup template from Magic UI",
+  description: "AI-powered tutoring platform",
 };
 
 export default function RootLayout({
