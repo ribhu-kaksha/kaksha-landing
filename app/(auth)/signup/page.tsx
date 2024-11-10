@@ -29,13 +29,13 @@ export default function SignUpPage() {
         <div className="flex flex-col gap-2 text-center">
           {/* <Icons.logo className="mx-auto h-6 w-6" /> */}
           <h1 className="text-2xl font-semibold tracking-tight">
-            Welcome to Magic UI
+            Coming Soon 💫
           </h1>
           <p className="text-sm text-muted-foreground">
-            Sign up for an account
+            Reach out to us at <span className="text-red-400">hello@kaksha.ai</span> for early access.
           </p>
         </div>
-        <UserAuthForm />
+        {/* <UserAuthForm />
         <p className="px-8 text-center text-sm text-muted-foreground">
           <Link
             href="/signin"
@@ -43,7 +43,7 @@ export default function SignUpPage() {
           >
             Already have an account? Sign In
           </Link>
-        </p>
+        </p> */}
       </div>
     </div>
   );

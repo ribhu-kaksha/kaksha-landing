@@ -9,9 +9,9 @@ export default async function Page() {
   return (
     <>
       <HeroSection />
-      <ClientSection />
+      {/* <ClientSection /> */}
       <SphereMask />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <CallToActionSection />
       <Particles
         className="absolute inset-0 -z-10"

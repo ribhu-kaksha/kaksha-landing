@@ -2,15 +2,16 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
+import { Alata as FontSans } from "next/font/google";
 import "./globals.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
+  weight: "400",
   variable: "--font-sans",
 });
 export const metadata: Metadata = {
-  title: "Magic UI",
+  title: "kaksha.ai",
   description: "The startup template from Magic UI",
 };
 
