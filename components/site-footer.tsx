@@ -28,7 +28,7 @@ const footerNavs = [
         name: "Discord",
       },
       {
-        href: "/",
+        href: "https://x.com/kaksha_ai",
         name: "Twitter",
       },
       {
@@ -78,7 +78,7 @@ export function SiteFooter() {
                 className="h-8 w-8 text-primary"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Magic UI
+                kaksha.ai
               </span>
             </Link>
             <p className="max-w-xs">AI Classroom for Teaching Online</p>
