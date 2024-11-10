@@ -219,7 +219,7 @@ export default function CallToActionSection() {
                 engage students like never before with our AI-powered tutoring platform
                 </p>
                 <Link
-                  href="#"
+                  href="https://forms.clickup.com/43252456/f/197yq8-24876/2X81URCC26G4K6M6IN"
                   className={cn(
                     buttonVariants({
                       size: "lg",
