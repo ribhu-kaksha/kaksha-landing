@@ -11,11 +11,10 @@ import {
   Brain,
   Book,
   GraduationCap,
-  User,
+  Star,
   Clipboard,
   Pen,
   BookOpenText,
-  Tablet,
   Lightbulb,
   UserPlus,
   UserRoundPlus,
@@ -46,19 +45,19 @@ const tiles = [
   {
     icon: <Presentation className="size-full" />,
     bg: (
-      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-600 opacity-70 blur-[20px] filter"></div>
+      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 opacity-70 blur-[20px] filter"></div>
     ),
   },
   {
     icon: <Users className="size-full" />,
     bg: (
-      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-orange-600 via-rose-600 to-violet-600 opacity-70 blur-[20px] filter"></div>
+      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-green-500 via-teal-500 to-emerald-600 opacity-70 blur-[20px] filter"></div>
     ),
   },
   {
     icon: <PieChart className="size-full" />,
     bg: (
-      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400 opacity-70 blur-[20px] filter"></div>
+      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-orange-600 via-rose-600 to-violet-600 opacity-70 blur-[20px] filter"></div>
     ),
   },
   {
@@ -80,7 +79,7 @@ const tiles = [
     ),
   },
   {
-    icon: <Tablet className="size-full" />,
+    icon: <Star className="size-full" />,
     bg: (
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400 opacity-70 blur-[20px] filter"></div>
     ),
@@ -88,7 +87,7 @@ const tiles = [
   {
     icon: <Lightbulb className="size-full" />,
     bg: (
-      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400 opacity-70 blur-[20px] filter"></div>
+      <div className="pointer-events-none absolute left-1/2 top-1/2 h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-orange-600 via-rose-600 to-violet-600 opacity-70 blur-[20px] filter"></div>
     ),
   },
 ];
@@ -214,10 +213,10 @@ export default function CallToActionSection() {
               </div>
               <div className="z-10 mt-4 flex flex-col items-center text-center text-primary">
                 <h1 className="text-3xl font-bold lg:text-4xl">
-                  Stop wasting time on design.
+                set up your first class today
                 </h1>
                 <p className="mt-2">
-                  Start your 7-day free trial. No credit card required.
+                engage students like never before with our AI-powered tutoring platform
                 </p>
                 <Link
                   href="#"
