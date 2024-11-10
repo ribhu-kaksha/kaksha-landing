@@ -13,10 +13,10 @@ const footerNavs = [
         href: "#Product",
         name: "Product",
       },
-      {
-        href: "#faq",
-        name: "FAQ",
-      },
+      // {
+      //   href: "#faq",
+      //   name: "FAQ",
+      // },
     ],
   },
 
