@@ -31,7 +31,7 @@ export default function HeroSection() {
         <br className="hidden md:block" /> with real-time help from our AI like a one-on-one tutor.
       </p>
       <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-white dark:text-black opacity-0 ease-in-out [--animation-delay:600ms]">
-        <Link href="https://forms.clickup.com/43252456/f/197yq8-24876/2X81URCC26G4K6M6IN"><span>Start Teaching </span></Link>
+        <a href="https://forms.clickup.com/43252456/f/197yq8-24876/2X81URCC26G4K6M6IN"><span>Start Teaching </span></a>
         <ArrowRightIcon className="ml-1 size-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
       </Button>
       <div
