@@ -108,7 +108,7 @@ export function SiteHeader() {
           </Link>
 
           <div className="ml-auto flex h-full items-center">
-            <Link className="mr-6 text-sm" href="http://app.kaksha.ai">
+            <Link className="mr-6 text-sm" href="https://app.kaksha.ai">
               Log in
             </Link>
             <Link
