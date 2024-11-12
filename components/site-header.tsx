@@ -10,23 +10,18 @@ import { useEffect, useState } from "react";
 const menuItem = [
   {
     id: 1,
-    label: "Features",
-    href: "/features",
+    label: "Login",
+    href: "https://app.kaksha.ai/signin",
   },
   {
     id: 2,
-    label: "Pricing",
-    href: "#",
+    label: "Sign Up",
+    href: "https://forms.clickup.com/43252456/f/197yq8-24876/2X81URCC26G4K6M6IN",
   },
   {
     id: 3,
-    label: "Careers",
-    href: "#",
-  },
-  {
-    id: 4,
     label: "Contact Us",
-    href: "#",
+    href: "mailto:hello@kaksha.ai",
   },
 ];
 
@@ -145,7 +140,7 @@ export function SiteHeader() {
         >
           <div className="container flex h-[3.5rem] items-center justify-between">
             <Link className="text-md flex items-center" href="/">
-              Magic UI
+              kaksha.ai
             </Link>
 
             <button
